@@ -1,6 +1,6 @@
 <?php
 header("Content-Type: application/json");
-$conn = new mysqli("localhost", "root", "ganairsm", "uas_nmp_FriendsApp");
+$conn = new mysqli("localhost", "root", "", "uas_nmp_FriendsApp");
 
 if ($conn->connect_error) {
     die(json_encode(["error" => "Connection failed"]));
