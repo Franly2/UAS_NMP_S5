@@ -10,10 +10,10 @@ class ViewPagerAdapter(activity: FragmentActivity) : FragmentStateAdapter(activi
 
     override fun createFragment(position: Int): Fragment {
         return when (position) {
-            0 -> ListFragment()
-            1 -> MyFriendsFragment()
+            0 -> ListFragment.newInstance("all")
+            1 -> ListFragment.newInstance("friends")
             2 -> SettingsFragment()
-            else -> ListFragment()
+            else -> ListFragment.newInstance("all")
         }
     }
 }

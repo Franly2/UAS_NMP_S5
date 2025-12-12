@@ -4,4 +4,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/material_dynamic_neutral_variant30"
-    tools:context=".SettingsFragment" />
+    tools:context=".SettingsFragment">
+
+    <Button
+        android:id="@+id/btnResetFriends"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Reset Friends"
+        android:layout_margin="16dp" />
+
+</FrameLayout>
