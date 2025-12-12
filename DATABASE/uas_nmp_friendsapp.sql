@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Dec 11, 2025 at 06:57 AM
+-- Generation Time: Dec 12, 2025 at 02:56 PM
 -- Server version: 8.0.33
 -- PHP Version: 8.0.30
 
@@ -54,16 +54,16 @@ CREATE TABLE `student` (
 --
 
 INSERT INTO `student` (`nrp`, `nama`, `email`, `program`, `about_me`, `my_course`, `my_experiences`, `photo_url`) VALUES
-('220001', 'Andi Pratama', 'andi.pratama@example.com', 'Informatika', 'Mahasiswa yang suka ngoding dan teknologi AI.', 'Pemrograman Java, Mobile Development, Database Fundamental', 'Magang sebagai Android Developer di startup lokal.', 'https://loremfaces.net/96/id/1.jpg'),
-('220002', 'Budi Santoso', 'budi.santoso@example.com', 'Sistem Informasi', 'Suka analisis data dan business intelligence.', 'Basis Data, Data Analytics, UI/UX Fundamental', 'Pernah menjadi panitia acara kampus dan freelance UI designer.', 'https://loremfaces.net/96/id/2.jpg'),
-('220003', 'Citra Lestari', 'citra.lestari@example.com', 'Informatika', 'Pecinta desain UI dan pengembangan aplikasi mobile.', 'Android Studio, Kotlin, UI/UX Design', 'Magang sebagai UI/UX Designer di agensi digital.', 'https://loremfaces.net/96/id/3.jpg'),
-('220004', 'Dewi Kusuma', 'dewi.kusuma@example.com', 'Teknik Komputer', 'Suka belajar tentang jaringan dan keamanan komputer.', 'Networking, Ethical Hacking, Sistem Operasi', 'Pernah mengikuti program pelatihan keamanan siber.', 'https://loremfaces.net/96/id/4.jpg'),
-('220005', 'Eko Ramadhan', 'eko.ramadhan@example.com', 'Informatika', 'Hobi membuat game indie dan belajar Unity.', 'Pemrograman C#, Unity, Algoritma & Struktur Data', 'Membuat 2 game simple dan ikut lomba IT fair.', 'https://loremfaces.net/96/id/5.jpg'),
-('220006', 'Fajar Nugroho', 'fajar.nugroho@example.com', 'Teknik Komputer', 'Tertarik dengan hardware komputer dan IoT.', 'Elektronika Digital, IoT Basic, Mikrokontroler', 'Magang di perusahaan IoT sebagai teknisi perangkat.', 'https://loremfaces.net/96/id/6.jpg'),
-('220007', 'Gita Permata', 'gita.permata@example.com', 'Sistem Informasi', 'Suka penelitian data dan business process.', 'Data Mining, Sistem Informasi Manajemen, SQL', 'Asisten dosen mata kuliah sistem informasi.', 'https://loremfaces.net/96/id/7.jpg'),
-('220008', 'Hani Wulandari', 'hani.wulandari@example.com', 'Informatika', 'Berfokus pada machine learning dan data science.', 'Python, Machine Learning, Statistik', 'Pernah membuat model prediksi sederhana untuk tugas kuliah.', 'https://loremfaces.net/96/id/8.jpg'),
-('220009', 'Irwan Syahputra', 'irwan.syahputra@example.com', 'Teknik Komputer', 'Hobi oprek hardware dan overclocking.', 'Arsitektur Komputer, Mikrokontroler, Elektronika', 'Teknisi lab komputer selama 1 tahun.', 'https://loremfaces.net/96/id/9.jpg'),
-('220010', 'Jasmine Safira', 'jasmine.safira@example.com', 'Sistem Informasi', 'Tertarik dengan digital marketing dan manajemen data.', 'Digital Marketing, Database, Data Visualization', 'Magang sebagai content creator & data assistant.', 'https://loremfaces.net/96/id/10.jpg');
+('220001', 'Andi Pratama', 'andi.pratama@example.com', 'Informatika', 'Mahasiswa yang suka ngoding dan teknologi AI.', 'Pemrograman Java, Mobile Development, Database Fundamental', 'Magang sebagai Android Developer di startup lokal.', 'https://randomuser.me/api/portraits/men/1.jpg'),
+('220002', 'Budi Santoso', 'budi.santoso@example.com', 'Sistem Informasi', 'Suka analisis data dan business intelligence.', 'Basis Data, Data Analytics, UI/UX Fundamental', 'Pernah menjadi panitia acara kampus dan freelance UI designer.', 'https://randomuser.me/api/portraits/men/2.jpg'),
+('220003', 'Citra Lestari', 'citra.lestari@example.com', 'Informatika', 'Pecinta desain UI dan pengembangan aplikasi mobile.', 'Android Studio, Kotlin, UI/UX Design', 'Magang sebagai UI/UX Designer di agensi digital.', 'https://randomuser.me/api/portraits/women/3.jpg'),
+('220004', 'Dewi Kusuma', 'dewi.kusuma@example.com', 'Teknik Komputer', 'Suka belajar tentang jaringan dan keamanan komputer.', 'Networking, Ethical Hacking, Sistem Operasi', 'Pernah mengikuti program pelatihan keamanan siber.', 'https://randomuser.me/api/portraits/women/4.jpg'),
+('220005', 'Eko Ramadhan', 'eko.ramadhan@example.com', 'Informatika', 'Hobi membuat game indie dan belajar Unity.', 'Pemrograman C#, Unity, Algoritma & Struktur Data', 'Membuat 2 game simple dan ikut lomba IT fair.', 'https://randomuser.me/api/portraits/men/5.jpg'),
+('220006', 'Fajar Nugroho', 'fajar.nugroho@example.com', 'Teknik Komputer', 'Tertarik dengan hardware komputer dan IoT.', 'Elektronika Digital, IoT Basic, Mikrokontroler', 'Magang di perusahaan IoT sebagai teknisi perangkat.', 'https://randomuser.me/api/portraits/men/6.jpg'),
+('220007', 'Gita Permata', 'gita.permata@example.com', 'Sistem Informasi', 'Suka penelitian data dan business process.', 'Data Mining, Sistem Informasi Manajemen, SQL', 'Asisten dosen mata kuliah sistem informasi.', 'https://randomuser.me/api/portraits/women/7.jpg'),
+('220008', 'Hani Wulandari', 'hani.wulandari@example.com', 'Informatika', 'Berfokus pada machine learning dan data science.', 'Python, Machine Learning, Statistik', 'Pernah membuat model prediksi sederhana untuk tugas kuliah.', 'https://randomuser.me/api/portraits/women/8.jpg'),
+('220009', 'Irwan Syahputra', 'irwan.syahputra@example.com', 'Teknik Komputer', 'Hobi oprek hardware dan overclocking.', 'Arsitektur Komputer, Mikrokontroler, Elektronika', 'Teknisi lab komputer selama 1 tahun.', 'https://randomuser.me/api/portraits/men/9.jpg'),
+('220010', 'Jasmine Safira', 'jasmine.safira@example.com', 'Sistem Informasi', 'Tertarik dengan digital marketing dan manajemen data.', 'Digital Marketing, Database, Data Visualization', 'Magang sebagai content creator & data assistant.', 'https://randomuser.me/api/portraits/women/10.jpg');
 
 --
 -- Indexes for dumped tables
@@ -90,7 +90,7 @@ ALTER TABLE `student`
 -- AUTO_INCREMENT for table `my_friends`
 --
 ALTER TABLE `my_friends`
-  MODIFY `id` int NOT NULL AUTO_INCREMENT;
+  MODIFY `id` int NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
 
 --
 -- Constraints for dumped tables
