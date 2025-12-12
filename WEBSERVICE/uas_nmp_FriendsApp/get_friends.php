@@ -1,6 +1,7 @@
 <?php
 header("Content-Type: application/json");
-$conn = new mysqli("localhost", "root", "ganairsm", "uas_nmp_FriendsApp");
+include "./koneksi.php";
+
 
 if ($conn->connect_error) {
     die(json_encode(["error" => "Connection failed"]));
